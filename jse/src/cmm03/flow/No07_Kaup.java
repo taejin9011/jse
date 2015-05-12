@@ -56,7 +56,7 @@ public class No07_Kaup {
 			Scanner scanner = new Scanner(System.in);
 			System.out.print("키를 입력 : ");
 			double height = scanner.nextDouble();
-			System.out.print("몸무게를 입력  : ");
+			System.out.print("몸무게를 입력  ..: ");
 			double weight = scanner.nextDouble();
 			
 			No07_Kaup k = new No07_Kaup(height, weight);
