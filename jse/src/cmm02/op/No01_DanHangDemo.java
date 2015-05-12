@@ -12,6 +12,6 @@ public class No01_DanHangDemo {
 		
 		int k = 5;
 		++k;
-		System.out.println("++k의 결과값 : " + k);
+		System.out.println("++k의 결과값 : " + k); 
 	}
 }
