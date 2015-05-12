@@ -29,7 +29,7 @@ public class No08_NumberMatch {
 			System.out.println("맞췄습니다." + "게임을 종료합니다.");	
 			break;
 		}else if(i==2){
-			System.out.println("3회 모두 참여했습니다."
+			System.out.println("3회 모두 참여했습니다. "
 					+"\n게임에서 패배했습니다."
 					+"\n게임을 종료합니다.");	
 			break;
