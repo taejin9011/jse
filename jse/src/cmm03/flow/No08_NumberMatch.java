@@ -3,7 +3,7 @@ package cmm03.flow;
 import java.util.Scanner;
 
 public class No08_NumberMatch {
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 		No08_NumberMatchVO vo = new No08_NumberMatchVO();
 		System.out.println("총 3회만 입력가능합니다.");
 		Scanner scanner = new Scanner(System.in);
