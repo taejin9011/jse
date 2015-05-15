@@ -31,7 +31,6 @@ public class No08_NumberMatchVO {
 	public void setCom() {
 		this.com = (int) ((Math.random() * 5) + 1);
 	}
-	
 	public int getCount() {
 		return count;
 	}
