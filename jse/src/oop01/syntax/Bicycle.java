@@ -7,28 +7,28 @@ public class Bicycle {
 	private int id;
 	private static int numberOfBicycle = 0;
 	
-	public Bicycle(int cadence, int gear, int speed, int id) {
+	public Bicycle(int startCadence, int startGear, int startSpeed) {
 		super();
-		this.cadence = cadence;
-		this.gear = gear;
-		this.speed = speed;
-		this.id = id;
+		this.cadence = startCadence;
+		this.gear = startGear;
+		this.speed = startSpeed;
+		this.id = ++numberOfBicycle;
 	}
 
 	public int getCadence() {
 		return cadence;
 	}
 
-	public void setCadence(int cadence) {
-		this.cadence = cadence;
+	public void setCadence(int newValue) {
+		this.cadence = newValue;
 	}
 
 	public int getGear() {
 		return gear;
 	}
 
-	public void setGear(int gear) {
-		this.gear = gear;
+	public void setGear(int newValue) {
+		this.gear = newValue;
 	}
 
 	public int getSpeed() {
@@ -37,6 +37,7 @@ public class Bicycle {
 
 	public void setSpeed(int speed) {
 		this.speed = speed;
+		
 	}
 
 	public int getId() {
@@ -47,6 +48,13 @@ public class Bicycle {
 		this.id = id;
 	}
 	
+	//사용자 정의 메소드
+	public void applyBrake(int decrement){
+		speed -= decrement;
+	}
 	
+	public void speedUp(int increment){
+		speed += increment;
+	}
 	
 }
