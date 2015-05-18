@@ -2,7 +2,6 @@ package oop01.encapsule;
 
 public class PayVO {
 	static final double TAX = 0.1;  //»ó¼ö
-	private double income;
 	private String name;
 	private int salary;
 	

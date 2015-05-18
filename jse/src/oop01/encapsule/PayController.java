@@ -9,7 +9,6 @@ public class PayController {
 				
 		String name; // 입력
 		int salary;  // 입력
-		double income = 0;
 		
 		/*
 		   공식..
