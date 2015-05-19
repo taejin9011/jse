@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class NumberMatchService {
      public int game(int com, int player) {

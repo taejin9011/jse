@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class PayVO {
 	static final double TAX = 0.1;  //»ó¼ö

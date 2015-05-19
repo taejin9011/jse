@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 import java.util.Scanner;
 
@@ -25,9 +25,9 @@ public class GameRpsController {
           if (winner == 0 ) {
                System.out.println("비겼습니다.");
           }else if(winner == 1){
-               System.out.println("플레이어가 이겼습니다.");
-          }else if(winner == 2){
                System.out.println("컴퓨터가 이겼습니다.");
+          }else if(winner == 2){
+               System.out.println("플레이어가 이겼습니다.");
           }else{
                System.out.println("잘못입력 되었습니다.");
          
