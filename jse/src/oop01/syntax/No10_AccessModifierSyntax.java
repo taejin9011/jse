@@ -10,8 +10,8 @@ package oop01.syntax;
 /*
  접근 제한자		같은클레스		같은패키지		상속관계다른패키지		무관한패키지
  public				   가능				가능			  가능					가능
- friendly(default)	   가능				가능			  가능					불가능	
- protected			   가능				가능			  불가능				불가능			
+ protected	   		   가능				가능			  가능					불가능	
+ friendly(default)	   가능				가능			  불가능				불가능			
  private			   가능				불가능			  불가능				불가능
  */
 /*
