@@ -24,7 +24,6 @@ public class LottoServiceImpl implements LottoService {
 
 	@Override
 	public void printLotto() {
-		// TODO Auto-generated method stub
 		
 	}
 
